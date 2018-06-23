@@ -3,9 +3,15 @@
   margin: auto;
   display: block; }
 
+a {
+  text-decoration: none !important; }
+
 .row {
-  margin: 0;
+  margin: 0 !important;
   padding: 0; }
+
+i {
+  text-align: center !important; }
 
 h2 {
   text-transform: uppercase;
@@ -24,7 +30,9 @@ hr {
   display: block; }
 
 .nav-wrapper {
-  background-color: #2c3e50; }
+  background-color: #2c3e50;
+  margin: 0 !important;
+  width: 100%; }
 
 .cabecera {
   width: 100%;
@@ -73,5 +81,30 @@ hr {
 .contacto {
   padding: 100px;
   color: #2c3e50; }
+
+footer {
+  background-color: #2c3e50;
+  height: 300px;
+  padding-top: 50px; }
+
+.pie {
+  margin-top: 100px;
+  margin: auto;
+  display: block;
+  color: white;
+  text-align: center; }
+
+.pie i {
+  border-radius: 50px;
+  border: 2px;
+  font-size: 24pt;
+  text-align: center;
+  margin-left: 10px; }
+
+.redes {
+  color: white; }
+
+span {
+  color: cyan; }
 
 /*# sourceMappingURL=style.css.map */
